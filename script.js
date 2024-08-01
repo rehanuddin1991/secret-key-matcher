@@ -32,16 +32,25 @@ let length_check="";
         //e.target.style.backgroundColor="red";
         //console.log(document.getElementById("result").innerText);
         if (e.target.innerText == "Submit") {
-            try {
-                result.innerText = eval(result.innerText);
+            if(result.value==document.getElementById("secret_key_value").value) 
+               {
+                document.getElementById("message_div").innerText="wow!that's great.Successfully match";
+                document.getElementById("message_div").style.color="greenyellow";
+                document.getElementById("message_div").style.fontSize="18px";
+               } 
+            else {
+                document.getElementById("message_div").innerText="Secret key and Input not matches";
+                document.getElementById("message_div").style.color="whitesmoke";
+                document.getElementById("message_div").style.fontSize="18px";
+
             }
-            catch (error) { result.innerText = "error"; }
 
         }
 
         else if (e.target.innerText == "Clear") 
             {
                 result.value = '';
+                document.getElementById("message_div").innerText="";
             }
             else if (e.target.innerText=="X")
             {

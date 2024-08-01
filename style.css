@@ -97,6 +97,10 @@
     grid-column: 1/-1;
     
 }
+#message_div
+{
+    grid-column: 1/-1;
+}
 .display_value
 {
     height: 50px;
