@@ -1,0 +1,94 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.open-sans-normal2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.secret_key_div
+{
+    border-right: 3px solid whitesmoke;
+}
+.secret_key_button
+{
+    padding: 10px 20px;
+    width:180px;
+    background-color: #077dad;
+    color:whitesmoke;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+#secret_key_value
+{
+    margin-top: 10px;
+    height: 55px;
+    width: 180px;
+    background-color: #077dad;
+    color:whitesmoke;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+.main_container
+{
+    display: grid;
+    border-radius: 3px;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: darkcyan;
+    grid-template-columns: repeat( auto-fit,minmax(300px,1fr));
+    gap:15px;
+}
+.input_output_div
+{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(66px,1fr));
+     
+    gap:6px;
+}
+@media screen and (min-width:500px) and (max-width: 992px) {
+    .input_output_div
+    {
+         
+        grid-template-columns: repeat( auto-fit,minmax(67px,1fr));
+        
+    }
+ 
+}
+@media screen and (max-width:475px) {
+    .input_output_div
+{
+     
+    grid-template-columns: repeat( auto-fit,minmax(100px,1fr));
+    
+}
+    
+}
+.result
+{
+    grid-column: 1/-1;
+    height: 60px;
+}
+ .input_keys{
+    border-radius: 4px;color:whitesmoke;
+    font-size: 17px;
+    background-color: darkcyan;
+    padding: 7px;
+    cursor: pointer;
+    border:2px solid gainsboro;
+}
+.input_submit
+{
+    background-color: #12d79a;
+    color:white;
+}
