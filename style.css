@@ -62,7 +62,7 @@
     .input_output_div
     {
          
-        grid-template-columns: repeat( auto-fit,minmax(67px,1fr));
+        grid-template-columns: repeat( auto-fit,minmax(77px,1fr));
         
     }
  
@@ -91,10 +91,16 @@
 }
     
 }
-.result
+.result_div  
 {
     grid-column: 1/-1;
-    height: 60px;
+    
+}
+.display_value
+{
+    height: 50px;
+    font-size: 15px;
+     
 }
  .input_keys{
     border-radius: 4px;color:whitesmoke;
