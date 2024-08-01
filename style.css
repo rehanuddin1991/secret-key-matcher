@@ -15,6 +15,7 @@
 .secret_key_div
 {
     border-right: 3px solid whitesmoke;
+     
 }
 .secret_key_button
 {
@@ -47,7 +48,8 @@
     height: 100vh;
     background-color: darkcyan;
     grid-template-columns: repeat( auto-fit,minmax(300px,1fr));
-    gap:15px;
+    
+    gap:5px;
 }
 .input_output_div
 {
@@ -56,7 +58,7 @@
      
     gap:6px;
 }
-@media screen and (min-width:500px) and (max-width: 992px) {
+@media screen and (min-width:500px) and (max-width: 900px) {
     .input_output_div
     {
          
@@ -66,6 +68,21 @@
  
 }
 @media screen and (max-width:475px) {
+    .secret_key_div{margin-top: 20px;}
+    .main_container
+    {
+         
+        align-content: baseline;
+        gap:32px;
+    }
+
+    .secret_key_div
+{
+    
+    justify-self: center;
+}
+
+
     .input_output_div
 {
      
@@ -91,4 +108,14 @@
 {
     background-color: #12d79a;
     color:white;
+}
+
+.input_clear
+{
+    background-color: #0b3aaf;color:whitesmoke;
+}
+
+.input_back
+{
+    background-color: #7f1951;
 }
