@@ -10,6 +10,13 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			<li>Cookies expire based on the setting </li>
 
 </ul>
+
+<ul>
+			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
+			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
+			<li>Cookies expire based on the setting </li>
+
+</ul>
 <h4>Capacity</h4>
 <ul>
 			 
