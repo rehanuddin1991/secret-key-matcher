@@ -17,7 +17,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			<li>5MB</li>
 			<li>Only 4KB</li>
 
-		</ul>
+</ul>
 
 		<h4>Storage Location:</h4>
 		<ul>
