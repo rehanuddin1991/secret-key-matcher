@@ -2,8 +2,14 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
 
-
 <h3>difference between localstorage , session storage and cookies</h3>
+<h5> Expires</h5>
+<ul>
+			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
+			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
+			<li>Cookies expire based on the setting </li>
+
+</ul>
 	<table>
 		<tr>
 			 
