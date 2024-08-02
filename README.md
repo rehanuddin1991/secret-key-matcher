@@ -1,6 +1,10 @@
 live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
+<h3>Q2. Event Bubble and Event Delegation</h3>
+<h5>Event Delegation means Handling a lot of elements with a single
+handler instead of assigning a handler to each of them.
+assume, we want to create a calculator, then we will need many keys. if we implement event delegation here then we don't need to add event each of key button. a single handler can execute our all tasks</h5>
 
 <h3>Q3. difference between localstorage , session storage and cookies</h3>
  
