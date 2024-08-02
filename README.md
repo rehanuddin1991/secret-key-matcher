@@ -12,16 +12,16 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 </ul>
 
 <ul>
-			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
-			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
-			<li>Cookies expire based on the setting </li>
+			<li>Storage Capacity of Local Storage is 5MB/10MB</li>
+			<li>Storage Capacity of Session Storage is 5MB</li>
+			<li>Storage Capacity of Cookies are 4KB </li>
 
 </ul>
 
 <ul>
-			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
-			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
-			<li>Cookies expire based on the setting </li>
+			<li>Local Storage data never sent with http requests </li>
+			<li>Session Storage data never sent with http requests</li>
+			<li>Cookies data sent with http requests </li>
 
 </ul>
 
@@ -56,9 +56,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 		<ul>
 			 
-			<li>Never sent with http requests</li>
-			<li>Never sent with http requests</li>
-			<li>sent with http requests</li>			
+			 			
 			 
 
 		</ul>
