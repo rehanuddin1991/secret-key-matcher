@@ -26,55 +26,12 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 </ul>
 
 <ul>
-			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
-			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
-			<li>Cookies expire based on the setting </li>
+			<li>Local Storage data can be accessed by any window/tab</li>
+			<li>Session Storage data can be accessed by same window/tab</li>
+			<li>Cookies data can be accessed by any window/tab </li>
 
 </ul>
-
-<ul>
-			<li>5/10 MB</li>
-			<li>5MB</li>
-			<li>Only 4KB</li>
-
-</ul>
-<ul>
-			 
-			<li>Client(Browser) only</li>
-			<li>Client(Browser) only</li>			
-			<li>Client(Browser) and Server </li>
-			 
-
-</ul>
-<h4>Capacity</h4>
- 
-
-		<h4>Storage Location:</h4>
-		
-
-		<h4>Sent to server?</h4>
-
-		<ul>
-			 
-			 			
-			 
-
-		</ul>
-
-
-
-
-		<h4>Accessibility</h4>
-
-
-		<ul>
-			 
-			<li>Stored data can be accessed by any window/tab</li>
-			<li>Stored data can be accessed by any window/tab</li>
-			<li>Stored data can be accessed by same window/tab</li>
-			 
-
-		</ul>
+ 	 
 
 	  
 <br>
