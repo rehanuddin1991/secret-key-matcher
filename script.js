@@ -28,7 +28,7 @@ container_div.addEventListener("click", (e) => {
 
     if (e.target.matches("button")) {
         length_check = result.value + '';
-        if (length_check.length > 5 && e.target.innerText != "Clear" && e.target.innerText != "Submit" 
+        if (length_check.length > 5 && e.target.innerText != "Clear" && e.target.innerText != "Submit"
             && e.target.innerText != "X") alert("Only 6 digits allowed");
         //console.log(e.target.innerText);
         //e.target.style.backgroundColor="red";
@@ -38,18 +38,18 @@ container_div.addEventListener("click", (e) => {
             if (result.value && secret_key.value && length_check.length > 5) {
                 if (result.value == document.getElementById("secret_key_value").value) {
 
-                    textFontColorChanged("msg_span","  wow! that's great.successfully matches","palegreen","18px");
-                    textFontColorChanged("icon_id","check_circle","whitesmoke","18px");
+                    textFontColorChanged("msg_span", "  wow! that's great.successfully matches", "palegreen", "18px");
+                    textFontColorChanged("icon_id", "check_circle", "whitesmoke", "18px");
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 
 
                 }
                 else {
-                    textFontColorChanged("msg_span","Secret key and Input are different!","floralwhite","18px");
-                    textFontColorChanged("icon_id","error","floralwhite","18px");                 
+                    textFontColorChanged("msg_span", "Secret key and Input are different!", "floralwhite", "18px");
+                    textFontColorChanged("icon_id", "error", "floralwhite", "18px");
 
-                    document.getElementById("msg_span").style.textShadow = "1px 1px red"; 
-                    
+                    document.getElementById("msg_span").style.textShadow = "1px 1px red";
+
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 
                 }
@@ -59,29 +59,29 @@ container_div.addEventListener("click", (e) => {
             }
             else {
                 //console.log(length_check.length);
-                if (!secret_key.value)
-                     { 
-                        textFontColorChanged("msg_span","please generate a secret key","floralwhite","18px");
-                        textFontColorChanged("icon_id","warning","floralwhite","18px"); 
-                        document.getElementById("icon_id").setAttribute("class", "material-icons");  
+                if (!secret_key.value) {
+                    textFontColorChanged("msg_span", "please generate a secret key", "floralwhite", "18px");
+                    textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
+                    document.getElementById("icon_id").setAttribute("class", "material-icons");
 
-                     return; 
-                
+                    return;
+
                 }
-                if(length_check.length <= 5) {
-                    textFontColorChanged("msg_span","please input 6 number","floralwhite","18px");
-                        textFontColorChanged("icon_id","warning","floralwhite","18px"); 
-                        document.getElementById("icon_id").setAttribute("class", "material-icons"); 
-                    
-                                        
+                if (length_check.length <= 5) {
+                    textFontColorChanged("msg_span", "please input 6 number", "floralwhite", "18px");
+                    textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
+                    document.getElementById("icon_id").setAttribute("class", "material-icons");
+
+
                     return;
                 }
                 if (!result.value) {
-                    textFontColorChanged("msg_span","please input secret key","floralwhite","18px");
-                        textFontColorChanged("icon_id","warning","floralwhite","18px"); 
-                        document.getElementById("icon_id").setAttribute("class", "material-icons"); 
-                    
-                    return;}
+                    textFontColorChanged("msg_span", "please input secret key", "floralwhite", "18px");
+                    textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
+                    document.getElementById("icon_id").setAttribute("class", "material-icons");
+
+                    return;
+                }
 
             }
 
@@ -116,9 +116,9 @@ container_div.addEventListener("click", (e) => {
 
 function textFontColorChanged(type, item_text, color, font) {
     document.getElementById(type).innerText = item_text;
-        document.getElementById(type).style.color = color;
-        document.getElementById(type).style.fontSize = font; 
-    
+    document.getElementById(type).style.color = color;
+    document.getElementById(type).style.fontSize = font;
+
 
 }
 
