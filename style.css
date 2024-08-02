@@ -113,6 +113,12 @@
     .secret_key_div {
         margin-top: 20px;
         justify-self: center;
+
+    }
+
+    #secret_key_value
+    {
+        background-color: black;
     }
 
     .main_container {
