@@ -54,40 +54,6 @@
     gap: 6px;
 }
 
-@media screen and (min-width:500px) and (max-width: 900px) {
-    .input_output_div {
-
-        grid-template-columns: repeat(auto-fit, minmax(77px, 1fr));
-        height: 100%;
-
-    }
-
-}
-
-@media screen and (max-width:475px) {
-    .secret_key_div {
-        margin-top: 20px;
-        justify-self: center;
-    }
-
-    .main_container {
-
-        align-content: baseline;
-        gap: 8px;
-        height: 100%;
-    }
-
-     
-
-
-    .input_output_div {
-
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-
-    }
-
-}
-
 .result_div {
     grid-column: 1/-1;
     color: floralwhite;
@@ -129,4 +95,41 @@
 
 .input_back {
     background-color: #7f1951;
+}
+
+
+
+@media screen and (min-width:500px) and (max-width: 900px) {
+    .input_output_div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(77px, 1fr));
+        height: 100%;
+
+    }
+
+}
+
+@media screen and (max-width:475px) {
+    .secret_key_div {
+        margin-top: 20px;
+        justify-self: center;
+    }
+
+    .main_container {
+
+        align-content: baseline;
+        gap: 8px;
+        height: 100%;
+    }
+
+     
+
+
+    .input_output_div {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        height: 100%;
+
+    }
+
 }
