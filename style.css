@@ -44,14 +44,13 @@
     background-color: darkcyan;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
-    gap: 5px;
+    gap: 0px 45px;
 }
 
 .input_output_div {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(66px, 1fr));
-
-    gap: 6px;
+    gap: 8px;
 }
 
 .result_div {
@@ -96,7 +95,11 @@
 .input_back {
     background-color: #7f1951;
 }
+.secret_key_div {
+     
+    justify-self: right;
 
+}
 
 
 @media screen and (min-width:500px) and (max-width: 900px) {
@@ -111,7 +114,7 @@
 
 @media screen and (max-width:475px) {
     .secret_key_div {
-        margin-top: 20px;
+        margin-top: 3px;
         justify-self: center;
 
     }
@@ -135,6 +138,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         height: 100%;
+        gap: 4px;
 
     }
 

@@ -12,7 +12,15 @@ document.getElementById("secret_key_button").addEventListener("click", (e) => {
     let expected_num = randomNumber();
     if (expected_num)
         document.getElementById("secret_key_value").value = expected_num;
-    else document.getElementById("secret_key_value").value = "339962";
+    else 
+    {
+       let valueForIndex= Math.floor(Math.random() * 899);
+        let randomNumArr=someRandomNumbers();
+        //console.log(randomNumArr);
+        document.getElementById("secret_key_value").value =randomNumArr[valueForIndex] ;
+    }
+    
+    
 
 
 });
@@ -128,6 +136,16 @@ function textFontColorChanged(type, item_text, color, font) {
 
 }
 
+function someRandomNumbers()
+{
+    let numArray=[];
+    for(let i=0;i<900;i++)
+    {
+        numArray[i]=600000+i;
+    }
+    return numArray;
+}
+
 
 function deleteLastString(str) {
     if (str) {
@@ -142,3 +160,4 @@ function deleteLastString(str) {
 
 
 }
+//console.log(someRandomNumbers());
