@@ -17,17 +17,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			<li>Only 4KB</li>
 
 </ul>
-<h4>Capacity</h4>
 <ul>
-			 
-			<li>5/10 MB</li>
-			<li>5MB</li>
-			<li>Only 4KB</li>
-
-</ul>
-
-		<h4>Storage Location:</h4>
-		<ul>
 			 
 			<li>Client(Browser) only</li>
 			<li>Client(Browser) only</li>			
@@ -35,6 +25,11 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			 
 
 		</ul>
+<h4>Capacity</h4>
+ 
+
+		<h4>Storage Location:</h4>
+		
 
 		<h4>Sent to server?</h4>
 
