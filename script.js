@@ -29,7 +29,13 @@ container_div.addEventListener("click", (e) => {
     if (e.target.matches("button")) {
         length_check = result.value + '';
         if (length_check.length > 5 && e.target.innerText != "Clear" && e.target.innerText != "Submit"
-            && e.target.innerText != "X") alert("Only 6 digits allowed");
+            && e.target.innerText != "X") 
+            {
+                   textFontColorChanged("msg_span", "only six digits allowed", "blanchedalmond", "18px");
+                    textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
+                    document.getElementById("icon_id").setAttribute("class", "material-icons");
+                    return;
+            }
         //console.log(e.target.innerText);
         //e.target.style.backgroundColor="red";
         //console.log(document.getElementById("result").innerText);
@@ -60,7 +66,7 @@ container_div.addEventListener("click", (e) => {
             else {
                 //console.log(length_check.length);
                 if (!secret_key.value) {
-                    textFontColorChanged("msg_span", "please generate a secret key", "floralwhite", "18px");
+                    textFontColorChanged("msg_span", "please generate a secret key", "blanchedalmond", "18px");
                     textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 
@@ -68,7 +74,7 @@ container_div.addEventListener("click", (e) => {
 
                 }
                 if (length_check.length <= 5) {
-                    textFontColorChanged("msg_span", "please input 6 number", "floralwhite", "18px");
+                    textFontColorChanged("msg_span", "please input six digits", "blanchedalmond", "18px");
                     textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 
@@ -76,7 +82,7 @@ container_div.addEventListener("click", (e) => {
                     return;
                 }
                 if (!result.value) {
-                    textFontColorChanged("msg_span", "please input secret key", "floralwhite", "18px");
+                    textFontColorChanged("msg_span", "please input secret key", "blanchedalmond", "18px");
                     textFontColorChanged("icon_id", "warning", "floralwhite", "18px");
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 
