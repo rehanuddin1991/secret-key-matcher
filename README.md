@@ -24,7 +24,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			<li>Client(Browser) and Server </li>
 			 
 
-		</ul>
+</ul>
 <h4>Capacity</h4>
  
 
