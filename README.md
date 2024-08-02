@@ -2,7 +2,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
 <h3>Q2. Event Bubble and Event Delegation</h3>
-<h5> Event Bubbling means when a event fired on a child element then gradually it will go to ancestor. assume, we have a container with a form. inside form , we have a button, each of the three element has click event so when we will ciick button first button event will call then form event and then container event. it's called bubbling  </h5>
+<h5> Event Bubbling means when a event fired on a child element then gradually it will go to ancestor. assume, we have a container with a form. inside form , we have a button, each of the three element has a click event so when we will click button, first button event will call then form event and then container event. it's called bubbling  </h5>
 <h5>Event Delegation means Handling a lot of elements with a single
 handler instead of assigning a handler to each of them.
 assume, we want to create a calculator, then we will need many keys. if we implement event delegation here then we don't need to add event each of key button. a single handler can execute our all tasks</h5>
