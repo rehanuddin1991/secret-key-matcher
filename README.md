@@ -3,9 +3,18 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 <h1>Questions and Answers </h1>
 <h3>Q1. New Features in ES6</h3>
 <ul>
-			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
-			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
-			<li>Cookies expire based on the setting </li>
+			<li>Write Less, do more</li>
+			<li>let & const keywords</li>
+			<li>for/of</li>
+			<li>Map Objects </li>
+   			<li>Default parameters </li>
+     			<li>Classes </li>
+			<li>Arrow functions </li> 
+		        <li>Some new String Methods </li>
+		        <li>some new Array Methods </li>
+		       <li>Symbol </li>
+
+   
 
 </ul>
 
