@@ -2,7 +2,7 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
 
-<h3>difference between localstorage , session storage and cookies</h3>
+<h3>Q3. difference between localstorage , session storage and cookies</h3>
  
 <ul>
 			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
@@ -29,6 +29,13 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 			<li>Local Storage data can be accessed by any window/tab</li>
 			<li>Session Storage data can be accessed by same window/tab</li>
 			<li>Cookies data can be accessed by any window/tab </li>
+
+</ul>
+
+<ul>
+			<li>Location of Local Storage data : Browser only</li>
+			<li>Location of Session Storage data : Browser only</li>
+			<li>Location of Cookies data : Browser & Server </li>
 
 </ul>
  	 
