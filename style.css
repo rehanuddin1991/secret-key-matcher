@@ -12,11 +12,7 @@
     font-variation-settings:
         "wdth" 100;
 }
-.secret_key_div
-{
-    border-right: 3px solid whitesmoke;
-     
-}
+
 .secret_key_button
 {
     padding: 10px 20px;
@@ -74,7 +70,8 @@
     {
          
         align-content: baseline;
-        gap:32px;
+        gap:8px;
+        height: 100%;
     }
 
     .secret_key_div
@@ -95,6 +92,7 @@
 .result_div  
 {
     grid-column: 1/-1;
+    color:floralwhite;
     
 }
 #message_div
@@ -110,9 +108,10 @@
 }
  .input_keys{
     border-radius: 4px;color:whitesmoke;
-    font-size: 17px;
+    font-size: 16px;
     background-color: darkcyan;
-    padding: 7px;
+    color:ghostwhite;
+    padding: 6px;
     cursor: pointer;
     border:2px solid gainsboro;
 }

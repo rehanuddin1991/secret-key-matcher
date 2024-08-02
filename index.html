@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret Key Matcher</title>
-</head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-<body class="open-sans-normal2">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+     
+</head>
+
+
+
+<body class="open-sans-normal2">  
     <div class="main_container" id="main_container">
         <div class="secret_key_div" id="secret_key_div">
             <button class="secret_key_button" id="secret_key_button">Generate Secret Key</button> <br>
-            <input type="text" name="" id="secret_key_value" disabled value="******">
+            <input type="text" name="" id="secret_key_value" disabled value="">
         </div>
-         
+
         <div class="input_output_div" id="input_output_div">
             <div class="result_div" id="result_div">
-                 Enter Your PIN:
-                <input type="text" class="display_value" id="display_value" disabled value="">  
+                Enter Your PIN:
+                <input type="text" class="display_value" id="display_value" disabled value="">
             </div>
             <button class="input_keys">1</button>
             <button class="input_keys">2</button>
@@ -36,7 +42,7 @@
             <button class="input_keys input_back">X</button>
             <button class="input_keys input_submit">Submit</button>
             <button class="input_keys input_clear">Clear</button>
-            <div id="message_div"></div>  
+            <div id="message_div"><i   id="icon_id"></i> <span id="msg_span"></span></div> 
 
         </div>
     </div>
