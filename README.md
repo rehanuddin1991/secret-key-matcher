@@ -1,6 +1,14 @@
 live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
+<h3>Q1. New Features in ES6</h3>
+<ul>
+			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
+			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
+			<li>Cookies expire based on the setting </li>
+
+</ul>
+
 <h3>Q2. Event Bubble and Event Delegation</h3>
 <h5> Event Bubbling means when a event fired on a child element then gradually it will go to ancestor. assume, we have a container with a form. inside form , we have a button, each of the three element has a click event so when we will click button, first button event will call then form event and then container event. it's called bubbling  </h5>
 <h5>Event Delegation means Handling a lot of elements with a single
