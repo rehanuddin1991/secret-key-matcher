@@ -3,69 +3,59 @@ live link: https://rehanuddin1991.github.io/secret-key-matcher/
 <h1>Questions and Answers </h1>
 
 <h3>difference between localstorage , session storage and cookies</h3>
-<h5> Expires</h5>
+<h4>Expires</h4>
 <ul>
 			<li>Local Storage never cleared by page closing, you have to delete it by javascript or manually</li>
 			<li>Session Storage data gets cleared when the page is closed (page session ends)</li>
 			<li>Cookies expire based on the setting </li>
 
 </ul>
-	<table>
-		<tr>
+<h4>Capacity</h4>
+<ul>
 			 
-			<th>Local Storage</th>
-			<th>Session Storage</th>
-			<th>Cookies </th>
+			<li>5/10 MB</li>
+			<li>5MB</li>
+			<li>Only 4KB</li>
 
-		</tr>
+		</ul>
 
-		<tr>
+		<h4>Storage Location:</h4>
+		<ul>
 			 
-			<td>Local Storage never cleared by page closing, you have to delete it by javascript or manually</td>
-			<td>Session Storage data gets cleared when the page is closed (page session ends)</td>
-			<td>Cookies expire based on the setting </td>
-
-		</tr>
-
-		<tr>
-			 
-			<td>Capacity: 5/10 MB</td>
-			<td>5MB</td>
-			<td>Only 4KB</td>
-
-		</tr>
-
-		<tr>
-			 
-			<td>Storage Location: Client(Browser) only</td>
-			<td>Storage Location: Client(Browser) only</td>			
-			<td>Storage Location: Client(Browser) and Server </td>
+			<li>Client(Browser) only</li>
+			<li>Client(Browser) only</li>			
+			<li>Client(Browser) and Server </li>
 			 
 
-		</tr>
+		</ul>
 
-		<tr>
-			 
-			<td>Never sent with http requests</td>
-			<td>Never sent with http requests</td>
-			<td>sent with http requests</td>			
-			 
+		<h4>Sent to server?</h4>
 
-		</tr>
-
-		<tr>
+		<ul>
 			 
-			<td>Stored data can be accessed by any window/tab</td>
-			<td>Stored data can be accessed by any window/tab</td>
-			<td>Stored data can be accessed by same window/tab</td>
+			<li>Never sent with http requests</li>
+			<li>Never sent with http requests</li>
+			<li>sent with http requests</li>			
 			 
 
-		</tr>
+		</ul>
 
 
 
 
-	</table>
+		<h4>Accessibility</h4>
+
+
+		<ul>
+			 
+			<li>Stored data can be accessed by any window/tab</li>
+			<li>Stored data can be accessed by any window/tab</li>
+			<li>Stored data can be accessed by same window/tab</li>
+			 
+
+		</ul>
+
+	  
 <br>
 <br>
 <h3>Q5 answer: some remarkable features of css3 </h3>
