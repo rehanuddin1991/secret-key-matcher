@@ -52,7 +52,7 @@ container_div.addEventListener("click", (e) => {
             if (result.value && secret_key.value && length_check.length > 5) {
                 if (result.value == document.getElementById("secret_key_value").value) {
 
-                    textFontColorChanged("msg_span", "  wow! that's great.successfully matches", "palegreen", "18px");
+                    textFontColorChanged("msg_span", "  wow!great.successfully matches", "palegreen", "18px");
                     textFontColorChanged("icon_id", "check_circle", "whitesmoke", "18px");
                     document.getElementById("icon_id").setAttribute("class", "material-icons");
 

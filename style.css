@@ -14,19 +14,19 @@
 }
 
 .secret_key_button {
-    padding: 10px 20px;
+    padding: 11px 5px;
     width: 180px;
     background-color: darkblue;
     color: aliceblue;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     border-radius: 1px;
 }
 
 #secret_key_value {
     margin-top: 10px;
-    height: 55px;
+    height: 46px;
     width: 180px;
-    background-color: black;
+    background-color: lightcoral;
     color: aliceblue;
     font-size: 1.3rem;
     border-radius: 5px;
@@ -44,6 +44,7 @@
     background-color: darkcyan;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 0px 45px;
+     
 }
 
 .input_output_div {
@@ -124,10 +125,7 @@
 
     }
 
-    #secret_key_value
-    {
-        background-color: black;
-    }
+     
 
     .main_container {
 
