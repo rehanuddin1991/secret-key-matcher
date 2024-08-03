@@ -1,8 +1,9 @@
 live link: https://rehanuddin1991.github.io/secret-key-matcher/
 
 <h1>Questions and Answers </h1>
+<h3>Q1. What is ES6 and what are the new features introduced in ES6?</h3>
 <h3>ES6 is a version of Javascript.It allows to write modern,clean,efficient and more readable code. </h3>
-<h3>Q1. New Features in ES6</h3>
+
 <ul>
 			<li>Write Less, do more</li>
 			<li>let & const keywords</li>
