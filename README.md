@@ -66,6 +66,10 @@ assume, we want to create a calculator, then we will need many keys. if we imple
 	  
 <br>
 <h3>Q4.In CSS what is the difference between display inline , display inline block and display block?</h3>
+
+<h5>Display inline doesn't add a new line after the element ,so  next alignment can sit after inline element. we can't changed width and height by display inline.</h5>
+<h5>Display inline-block doesn't add a new line after the element ,so  next alignment can sit after inline element. But we can  changed width and height by display inline-block.</h5>
+<h5>Display block add a new line after the element and takes full width</h5>
 <br>
 <h3>Q5 answer: some remarkable features of css3 </h3>
 <ul>
