@@ -65,6 +65,7 @@ assume, we want to create a calculator, then we will need many keys. if we imple
 
 	  
 <br>
+<h3>Q4.In CSS what is the difference between display inline , display inline block and display block?</h3>
 <br>
 <h3>Q5 answer: some remarkable features of css3 </h3>
 <ul>
