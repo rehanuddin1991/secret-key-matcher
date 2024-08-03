@@ -131,7 +131,7 @@ container_div.addEventListener("click", (e) => {
 function textFontColorChanged(type, item_text, color, font) {
     document.getElementById(type).innerText = item_text;
     document.getElementById(type).style.color = color;
-    document.getElementById(type).style.fontSize = font;
+    //document.getElementById(type).style.fontSize = font;
 
 
 }

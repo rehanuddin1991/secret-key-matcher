@@ -14,7 +14,7 @@
 }
 
 .secret_key_button {
-    padding: 11px 5px;
+    padding: 6px 4px;
     width: 180px;
     background-color: darkblue;
     color: aliceblue;
@@ -23,8 +23,8 @@
 }
 
 #secret_key_value {
-    margin-top: 10px;
-    height: 46px;
+    margin-top: 4px;
+    height: 36px;
     width: 180px;
     background-color: lightcoral;
     color: aliceblue;
@@ -37,6 +37,7 @@
 
 .main_container {
     display: grid;
+    min-height: 420px;
     border-radius: 3px;
     justify-items: center;
     align-content: center;
@@ -102,6 +103,7 @@
      
 
 }
+
 
 
 @media screen and (min-width:500px) and (max-width: 900px) {
